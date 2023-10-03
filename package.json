@@ -2,15 +2,20 @@
   "name": "dom_test",
   "version": "1.0.0",
   "description": "// Создать div",
-  "main": "dom.js",
+  "main": "index.js",
   "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Svitlana Horodylova",
   "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
   "dependencies": {
-    "Babel": "^0.0.1",
-    "joi": "^17.10.2",
-    "uuid": "^9.0.1"
+    "joi": "^17.10.2"
   }
 }
