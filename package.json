@@ -1,0 +1,16 @@
+{
+  "name": "dom_test",
+  "version": "1.0.0",
+  "description": "// Создать div",
+  "main": "dom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Babel": "^0.0.1",
+    "joi": "^17.10.2",
+    "uuid": "^9.0.1"
+  }
+}
